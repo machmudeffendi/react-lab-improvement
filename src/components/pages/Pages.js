@@ -6,6 +6,7 @@ import FilterableProducts from './grouping-products/FilterableProducts';
 import TimeReminder from './timereminder/TimeReminder';
 import ReactHooks from './react-hooks/ReactHooks';
 import ReactTesting from './react-testing/ReactTesting';
+import ScrollContent from './infinity-scroll/ScrollContent'
 
 import _404 from '../template/content/error/404';
 
@@ -44,4 +45,5 @@ export const Menu = [
 	{ menu: 'Time Reminder', component: TimeReminder },
 	{ menu: 'React Hooks', component: ReactHooks },
 	{ menu: 'React Testing', component: ReactTesting },
+	{ menu: 'Infinity Scroll', component: ScrollContent },
 ]
